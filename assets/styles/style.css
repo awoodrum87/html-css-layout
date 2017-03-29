@@ -1,9 +1,9 @@
 div{
-  height: 100px;
+  height: 50px;
   border: 1px solid #000;
   margin-bottom: 10px;
   text-align: center;
-  width: 30%;
+  width: 75%;
 }
 
 p {
@@ -14,4 +14,11 @@ p {
 }
 
 .full{
+}
+
+@media (max-width: 400px){
+  div{
+    background-color: green;
+  }
+
 }
